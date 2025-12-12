@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ruihan Zhang</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: #ffffff;
+      color: #111111;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      margin: 0;
+      font-size: 18px;
+      color: #555555;
+    }
+
+    .contact {
+      margin-top: 14px;
+      font-size: 15px;
+      color: #333333;
+    }
+
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      font-weight: 600;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 6px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      color: #666666;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 14px;
+      color: #777777;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 30px; }
+      .subtitle { font-size: 16px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Ruihan Zhang</h1>
+      <p class="subtitle">
+        Ph.D. Candidate in Computer Science<br>
+        Singapore Management University
+      </p>
+      <div class="contact">
+        Email:
+        <a href="mailto:rhzhang.2021@phdcs.smu.edu.sg">
+          rhzhang.2021@phdcs.smu.edu.sg
+        </a>
+        · Singapore
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a Ph.D. candidate at Singapore Management University (SMU).
+        My research focuses on machine learning robustness, reliability,
+        and certified properties such as robustness and fairness.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Ph.D. in Computer Science</strong>, Singapore Management University
+          <div class="meta">Jan 2022 – Present</div>
+        </li>
+        <li>
+          <strong>B.Eng. (Computer Science and Design)</strong>, SUTD
+          <div class="meta">May 2018 – Aug 2021</div>
+        </li>
+        <li>
+          <strong>Global Leadership Programme</strong>, UC Berkeley
+          <div class="meta">Jun 2019 – Aug 2019</div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>
+          Certified robust accuracy of neural networks are bounded due to Bayes errors
+          <div class="meta">CAV 2024</div>
+        </li>
+        <li>
+          RobFace: A test suite for efficient robustness evaluation of face recognition systems
+          <div class="meta">IEEE Transactions on Reliability, 2025</div>
+        </li>
+        <li>
+          Correct-by-construction: Certified individual fairness through neural network training
+          <div class="meta">PACMPL (OOPSLA2), 2025</div>
+        </li>
+        <li>
+          Towards provably unlearnable examples via Bayes error optimisation
+          <div class="meta">AAAI 2026 (accepted)</div>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
+      <ul>
+        <li>SMU Research Excellence Awards</li>
+        <li>Singapore MOE SM2 Scholarship</li>
+        <li>SUTD Design and Engineering Scholarship</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>Visa Inc.</strong> — Global Intern Program
+          <div class="meta">May 2020 – Jul 2020</div>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Ruihan Zhang
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
