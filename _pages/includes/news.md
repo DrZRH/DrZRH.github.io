@@ -3,5 +3,3 @@
 - *2025.11*: Guest Lecturer for **Human-Centred Design for Information Visualisation** at SUTD.
 <!-- - *2020.05*: Intern at **Visa Inc.** -->
 - *Awards*: Recipient of **SMU Research Excellence Awards**.
-- *Awards*: Recipient of **Singapore MOE SM2 Scholarship**.
-- *Awards*: Recipient of **SUTD Design and Engineering Scholarship**.
