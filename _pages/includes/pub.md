@@ -1,7 +1,7 @@
 
 # 📝 Publications
 
-- ``AAAI 2026`` [Towards Provably Unlearnable Examples via Bayes Error Optimisation](https://arxiv.org/pdf/2511.08191), **Ruihan Zhang**, Peixin Zhang, Ee-Peng Lim, Jun Sun.
+- ``AAAI 2026`` [Towards Provably Unlearnable Examples via Bayes Error Optimisation](https://arxiv.org/pdf/2511.08191), **Ruihan Zhang**, Jun Sun, Ee-Peng Lim, Peixin Zhang.
  [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2511.08191) | [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/cat-claws/unlearnable) 
 
 - ``OOPSLA 2025`` [Correct-by-Construction: Certified Individual Fairness through Neural Network Training](https://dl.acm.org/doi/10.1145/3763107), **Ruihan Zhang**, Jun Sun.
