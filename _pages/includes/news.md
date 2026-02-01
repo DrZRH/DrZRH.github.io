@@ -6,10 +6,9 @@
 <details>
 <summary><strong>More news</strong></summary>
 
- 
+- *2025.10*: One paper accepted by **AAAI Doctoral Consortium**. 
 - *2025.09*: One paper accepted by **OOPSLA**.
-- *2025.09*: One paper accepted by **AAAI Doctoral Consortium**.
-- *2025.08*: Recipient of **SMU Research Excellence Awards**.
+- *2025.08*: Received **SMU Research Excellence Awards**.
 - *2024.03*: One paper accepted by **CAV**.
 
 </details>
