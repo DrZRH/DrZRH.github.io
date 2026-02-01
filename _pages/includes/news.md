@@ -1,7 +1,7 @@
 # 🔥 News
 - *2026.01*: Joined SUTD Academy as **Adjunct Fellow**.
 - *2026.01*: Obtained PhD degree.
-- *2025.11*: Selected to participate in **Global Young Scientists Summit**.
+- *2025.11*: Selected to participate in **Global Young Scientists Summit 2026**.
 - *2025.11*: One paper accepted by **AAAI**.
 
 <details>
