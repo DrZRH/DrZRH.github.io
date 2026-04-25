@@ -12,7 +12,7 @@
 
 - ``ICML 2026 (Submitted)`` [Towards Certified Probabilistic Robustness with High Accuracy](http://example.com/TOFIX_PDF), **Ruihan Zhang**, Peixin Zhang, Jun Sun.
 
-- ``ACL 2026 (Submitted)`` [Rendering Data Unlearnable by Exploiting LLM Alignment Mechanisms](http://example.com/TOFIX_PDF), **Ruihan Zhang**, Jun Sun.
+- ``ACL 2026 (Main)`` [Rendering Data Unlearnable by Exploiting LLM Alignment Mechanisms](http://example.com/TOFIX_PDF), **Ruihan Zhang**, Jun Sun.
 
 - ``IEEE TR 2025`` [RobFace: A Test Suite for Efficient Robustness Evaluation of Face Recognition Systems](https://ieeexplore.ieee.org/document/11048392/), **Ruihan Zhang**, Jun Sun.
  [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2504.21420) | [![Code](https://img.shields.io/badge/Code-Github-black)](https://github.com/cat-claws/RobFace.git) 
