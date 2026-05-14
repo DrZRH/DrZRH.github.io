@@ -15,13 +15,13 @@ code: "https://github.com/cat-claws/unlearnable-llm-alignment"
   <img src="/assets/images/projects/llm-unlearnable/pipeline.png" alt="Pipeline of disclaimer injection for rendering LLM data unlearnable">
 </figure>
 
-This work studies how to protect text data from being learned by large language models.
+This work studies how to protect data from being learned by large language models.
 
-Traditional unlearnable-example methods rely on small surface-level perturbations.
-However, LLMs can often recover the original semantics through their strong language understanding.
-We therefore ask a different question:
+Existing unlearnable-example methods were not designed for modern LLMs. 
+Their surface-level perturbations often fail because LLMs can still infer the underlying meaning. 
+We therefore ask:
 
-> If surface noise no longer works, can we make the data unlearnable inside the LLM itself?
+> How can we protect data from being learned in the era of large language models?
 
 ---
 
@@ -45,9 +45,9 @@ In other words, the perturbation may look disruptive to humans, but it is not ne
   <img src="/assets/images/projects/llm-unlearnable/disclaimer-injection.png" alt="Disclaimer injection example showing original and injected input">
 </figure>
 
-Instead of adding random noise, we inject short disclaimer-like phrases that are benign to humans but highly salient to the model.
+Instead of adding random noise, we inject short disclaimer-style sentences that are benign to humans but highly salient to the model.
 
-These phrases act as triggers for the model’s safety and alignment mechanisms.
+These disclaimer-style sentences act as triggers for the model’s safety and alignment mechanisms.
 Once triggered, the model shifts away from ordinary task processing and toward refusal- or risk-oriented internal behavior.
 
 The goal is not to hide the text.
@@ -61,9 +61,9 @@ The goal is to change how the LLM processes it.
   <img src="/assets/images/projects/llm-unlearnable/approach.png" alt="Rendering data unlearnable within LLMs">
 </figure>
 
-Our approach is based on the observation that LLM representations can separate benign and hazardous content.
+Our approach is based on the observation that alignment-triggering inputs induce internal representations that differ systematically from ordinary task inputs.
 
-We exploit this representational gap by injecting carefully designed disclaimer phrases.
+We exploit this representational gap by injecting carefully designed disclaimer sentences.
 The injected text redirects the model toward alignment-related computation, making the protected content less learnable during training.
 
 This creates a different form of unlearnability:
