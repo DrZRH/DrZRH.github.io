@@ -106,7 +106,7 @@ This suggests that the key bottleneck is not whether the text is visibly perturb
 
 ## Takeaway
 
-This work shows that protecting text from LLM training requires a different mechanism from protecting images or classical classifiers.
+This work shows that protecting text from LLM training requires a different mechanism from classical classifiers.
 
 For LLMs, surface-level noise is often insufficient because the model can recover meaning.
 A more effective strategy is to interact with the model’s alignment machinery and redirect its computation away from useful learning.
