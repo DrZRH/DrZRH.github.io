@@ -1,0 +1,47 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main" class="project-page">
+      <article class="page project-article" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        
+        <div class="project__header">
+          <h1 class="project__title">{{ page.title }}</h1>
+          {% if page.conference or page.authors or page.year %}
+          <div class="project__meta">
+            {% if page.conference %}<span class="project__badge conference">{{ page.conference }}</span>{% endif %}
+            {% if page.year %}<span class="project__year">{{ page.year }}</span>{% endif %}
+            {% if page.authors %}<p class="project__authors">{{ page.authors }}</p>{% endif %}
+          </div>
+          {% endif %}
+          
+          {% if page.paper or page.code or page.arxiv %}
+          <div class="project__links">
+            {% if page.paper %}<a href="{{ page.paper }}" class="btn btn--primary">📄 Paper</a>{% endif %}
+            {% if page.code %}<a href="{{ page.code }}" class="btn btn--primary">💻 Code</a>{% endif %}
+            {% if page.arxiv %}<a href="{{ page.arxiv }}" class="btn btn--primary">📋 arXiv</a>{% endif %}
+          </div>
+          {% endif %}
+        </div>
+
+        <section class="page__content project__content" itemprop="text">
+          {{ content }}
+        </section>
+      </article>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,26 @@
+-
+  id: disclaimer-injection
+  title: "Rendering Data Unlearnable by Exploiting LLM Alignment Mechanisms"
+  short: "Exploit LLM alignment mechanisms to make data unlearnable via disclaimer injection."
+  paper: "https://arxiv.org/pdf/2601.03401"
+  code: "https://github.com/cat-claws/unlearnable-llm-alignment"
+  page: "/projects/disclaimer-injection.html"
+  thumb: "/assets/images/projects/aaai26/motivation.png"
+
+-
+  id: provably-unlearnable
+  title: "Towards Provably Unlearnable Examples via Bayes Error Optimisation"
+  short: "Maximize Bayes error under imperceptible perturbations to create provably unlearnable data."
+  paper: "https://arxiv.org/pdf/2511.08191"
+  code: "https://github.com/cat-claws/unlearnable"
+  page: "/projects/provably-unlearnable.html"
+  thumb: "/assets/images/projects/llm-unlearnable/pipeline.png"
+
+-
+  id: bayes-error-bounds
+  title: "Certified Robust Accuracy of Neural Networks Are Bounded Due to Bayes Errors"
+  short: "Prove an upper bound on achievable robust accuracy using Bayes error analysis."
+  paper: "https://arxiv.org/pdf/2405.11547"
+  code: "http://example.com/TOFIX_CODE"
+  page: "/projects/bayes-error-bounds.html"
+  thumb: "/assets/images/projects/bayes-error/overview.png"
