@@ -15,11 +15,11 @@ code: ""
   <img src="/assets/images/projects/bayes-error/overview.png" alt="Overview of Bayes-error-based robustness limits">
 </figure>
 
-Certified robustness has a data-dependent ceiling: larger Bayes error implies lower best-achievable certified robust accuracy.
+Certified training improves robustness, but often at a large cost to accuracy. This work asks whether this trade-off is only caused by imperfect training, or whether it reflects a fundamental limit.
 
-Robust training effectively changes the target distribution through perturbation neighborhoods.
-This shift increases class overlap, raises Bayes error, and creates a hard ceiling on certified performance.
+We show that robustness changes the effective data distribution: each input must remain correct across its perturbation region. This increases class overlap, raises Bayes error, and imposes an upper bound on certified robust accuracy.
 
+In short, certified robustness is not only an optimisation challenge — it is also limited by the uncertainty of the data itself.
 ---
 
 ## Motivation: Ambiguity Is Irreducible
