@@ -66,10 +66,7 @@ This is also accompanied by a substantial increase in Bayes error, highlighting 
 
 ## Takeaway
 
-This work shows that Bayes error is not only a tool for analyzing learning limits.
-
-It can also be used directly as a **design target** for constructing unlearnable examples.
-By optimizing Bayes error itself, we obtain a method that is theoretically motivated, algorithm-agnostic, and effective in the mixed-data setting that matters in practice.
+Instead of relying on heuristic perturbations, we construct unlearnable examples by directly increasing Bayes error, making the data harder to learn even when mixed with clean samples.
 
 ---
 
