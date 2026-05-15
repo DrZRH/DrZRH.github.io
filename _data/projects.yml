@@ -24,3 +24,21 @@
   code: "http://example.com/TOFIX_CODE"
   page: "/projects/bayes-error-bounds.html"
   thumb: "/assets/images/projects/bayes-error/overview.png"
+
+-
+  id: certified-fairness
+  title: "Correct-By-Construction: Certified Individual Fairness through Neural Network Training"
+  short: "Train neural networks that guarantee individual fairness by construction with minimal overhead."
+  paper: "https://dl.acm.org/doi/epdf/10.1145/3763107"
+  code: "https://github.com/cat-claws/correct-by-construction"
+  page: "/projects/certified-fairness.html"
+  thumb: "/assets/images/projects/certified-fairness/pipeline.png"
+
+-
+  id: robface
+  title: "A Test Suite for Efficient Robustness Evaluation of Face Recognition Systems"
+  short: "ROBFACE: a system-agnostic, search-free test suite for face recognition robustness."
+  paper: "https://arxiv.org/pdf/2504.21420"
+  code: "https://github.com/cat-claws/RobFace"
+  page: "/projects/robface.html"
+  thumb: "/assets/images/projects/robface/pipeline.png"
